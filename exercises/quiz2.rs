@@ -25,16 +25,16 @@
 pub enum Command {
     Uppercase,
     Trim,
-    Append(usize),
+    Append(usize)
 }
 
 mod my_module {
     use super::Command;
 
     // TODO: Complete the function signature!
-    pub fn transformer(input: ???) -> ??? {
+    pub fn transformer(input: str, Command) -> str {
         // TODO: Complete the output declaration!
-        let mut output: ??? = vec![];
+        let mut output: (str) = vec![];
         for (string, command) in input.iter() {
             // TODO: Complete the function body. You can do it!
         }
